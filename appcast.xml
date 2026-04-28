@@ -6,21 +6,23 @@
 <description>LogicGrid app updates</description>
 <language>en</language>
 <item>
-<title>LogicGrid 10.1.1</title>
-<sparkle:version>1011</sparkle:version>
-<sparkle:shortVersionString>10.1.1</sparkle:shortVersionString>
+<title>LogicGrid 10.1.2</title>
+<sparkle:version>1012</sparkle:version>
+<sparkle:shortVersionString>10.1.2</sparkle:shortVersionString>
 <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-<description><![CDATA[<h3>LogicGrid 10.1.1</h3>
+<description><![CDATA[<h3>LogicGrid 10.1.2</h3>
 <h4>New</h4>
 <ul>
-<li>Main ruler popup in Settings — switch between Music bars (default) and Timecode for projects using a timecode ruler</li>
+<li>32nds added as a subdivision option</li>
+<li>Fully zoomed line skipping: Show all / Skip every other / Skip 3 in a row / Skip 7 in a row</li>
+<li>Independent Alternate line opacity toggle — stacks with skip patterns</li>
 </ul>
-<h4>Fixed</h4>
+<h4>Changed</h4>
 <ul>
-<li>Dev overlay no longer truncates the ruler height value</li>
+<li>Watchdog no longer force-quits LogicGrid when the main thread appears unresponsive. Captures a stack trace dump to ~/Library/Application Support/LogicGrid/ instead — send these to the developer if you experience hangs.</li>
 </ul>]]></description>
-<pubDate>Mon, 27 Apr 2026 10:00:00 -0500</pubDate>
-<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v10.1.1/LogicGrid-10.1.1.zip" sparkle:edSignature="DoYasA5Zbll8PfrvxsgEr1AqJ1kbsHlUxLtgP4bhpsN9pmPepgTypLBYfKAi2P6dD0E+AJNE1v+/7U3Iz80QBQ==" length="4676101" type="application/octet-stream"/>
+<pubDate>Tue, 28 Apr 2026 12:00:00 -0500</pubDate>
+<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v10.1.2/LogicGrid-10.1.2.zip" sparkle:edSignature="bjy6cRkXffjNyaW9OQYxFX1Ko7v5KeOXIB59kzD8WhdK5RcfJR7cedOtiyMoh2KrQk765QM5MFd1nZuOUU2nBA==" length="4692338" type="application/octet-stream"/>
 </item>
 </channel>
 </rss>
