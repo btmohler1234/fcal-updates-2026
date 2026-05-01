@@ -6,17 +6,22 @@
 <description>LogicGrid app updates</description>
 <language>en</language>
 <item>
-<title>LogicGrid 10.1.3</title>
-<sparkle:version>1013</sparkle:version>
-<sparkle:shortVersionString>10.1.3</sparkle:shortVersionString>
+<title>LogicGrid 10.1.5</title>
+<sparkle:version>1015</sparkle:version>
+<sparkle:shortVersionString>10.1.5</sparkle:shortVersionString>
 <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-<description><![CDATA[<h3>LogicGrid 10.1.3</h3>
+<description><![CDATA[<h3>LogicGrid 10.1.5</h3>
 <h4>Fixed</h4>
 <ul>
-<li>Detection strips no longer drift when Logic's "Show Global Tracks" is enabled. Previously, opening any global track row would cause the grid to mis-detect or fail to refine because Logic reports a taller ruler frame to Accessibility, which threw off our scan positions.</li>
+<li>Localization update — users with a Mac set to something other than English should now have correct grid drawing by selecting "Structural AX Walk" in Advanced under Settings.</li>
+<li>If LogicGrid detects your Mac is set to something other than English, this option is automatically selected.</li>
+</ul>
+<h4>New</h4>
+<ul>
+<li>"Export Diagnostics" button in the bug report window. One click drops a log file on your Desktop with everything we need to debug an issue.</li>
 </ul>]]></description>
-<pubDate>Tue, 28 Apr 2026 19:00:00 -0500</pubDate>
-<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v10.1.3/LogicGrid-10.1.3.zip" sparkle:edSignature="pLAjepVtbrrHpDlhWRv/bRRuM6R4WQ2dAYJiVg6M1LkPfhAAvcM/6KmrpS8YZ3lITm/upX/USQeI+yKcMYO6Ag==" length="4691491" type="application/octet-stream"/>
+<pubDate>Fri, 01 May 2026 18:30:00 -0500</pubDate>
+<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v10.1.5/LogicGrid-10.1.5.zip" sparkle:edSignature="/JxJxXucXt/UjZUgWrraSntE0CNuc2hhKZEZK3mzvl/GHbFsYHeMUo4qJPHcFkJV4BFm/I8raeXRRgMd6JsTDQ==" length="4722451" type="application/octet-stream"/>
 </item>
 </channel>
 </rss>
