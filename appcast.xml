@@ -6,79 +6,16 @@
 <description>LogicGrid app updates</description>
 <language>en</language>
 <item>
-<title>LogicGrid 11.1.0</title>
-<sparkle:version>11100</sparkle:version>
-<sparkle:shortVersionString>11.1.0</sparkle:shortVersionString>
+<title>LogicGrid 11.1.1</title>
+<sparkle:version>11101</sparkle:version>
+<sparkle:shortVersionString>11.1.1</sparkle:shortVersionString>
 <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-<description><![CDATA[<h3>What's new in 11.1.0</h3>
-<p><strong>Working state visual</strong></p>
+<description><![CDATA[<h3>What's new in 11.1.1</h3>
 <ul>
-<li>New "Grid while scrolling or scanning" option in Settings, Advanced section.</li>
-<li>Hide, the default, makes the grid disappear entirely while LogicGrid follows horizontal scroll or scans the ruler after a zoom.</li>
-<li>Dim, the alternative, keeps the grid faintly visible at 25% opacity during those moments. The grid pops back to full opacity once Logic settles.</li>
-</ul>
-<p><strong>120 fps cursor tracking is now on by default</strong></p>
-<ul>
-<li>Smoother spotlight cursor tracking for everyone with a ProMotion display, no toggle hunting required. Can be turned off in Settings, Advanced section if needed.</li>
-</ul>
-<p><strong>Quieter default look</strong></p>
-<ul>
-<li>Light and Dark color presets now apply at 80% opacity. Less in your face on top of waveforms and regions. Your existing custom settings are
-cat > ~/Desktop/logicgrid_dev/fcal-updates-2026/appcast.xml <<'EOF'
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-<channel>
-<title>LogicGrid Updates</title>
-<link>https://raw.githubusercontent.com/btmohler1234/fcal-updates-2026/main/appcast.xml</link>
-<description>LogicGrid app updates</description>
-<language>en</language>
-<item>
-<title>LogicGrid 11.1.0</title>
-<sparkle:version>11100</sparkle:version>
-<sparkle:shortVersionString>11.1.0</sparkle:shortVersionString>
-<sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-<description><![CDATA[<h3>What's new in 11.1.0</h3>
-<p><strong>Working state visual</strong></p>
-<ul>
-<li>New "Grid while scrolling or scanning" option in Settings, Advanced section.</li>
-<li>Hide, the default, makes the grid disappear entirely while LogicGrid follows horizontal scroll or scans the ruler after a zoom.</li>
-<li>Dim, the alternative, keeps the grid faintly visible at 25% opacity during those moments. The grid pops back to full opacity once Logic settles.</li>
-</ul>
-<p><strong>120 fps cursor tracking is now on by default</strong></p>
-<ul>
-<li>Smoother spotlight cursor tracking for everyone with a ProMotion display, no toggle hunting required. Can be turned off in Settings, Advanced section if needed.</li>
-</ul>
-<p><strong>Quieter default look</strong></p>
-<ul>
-<li>Light and Dark color presets now apply at 80% opacity. Less in your face on top of waveforms and regions. Your existing custom settings are not touched.</li>
-</ul>
-<p><strong>Settings window</strong></p>
-<ul>
-<li>Auto sizes to fit its content.</li>
-<li>Remembers your size across sessions.</li>
-<li>Bigger, clearer section headings.</li>
-</ul>
-<p><strong>Reminder</strong></p>
-<ul>
-<li>Auto hide when zoomed out lives in Settings, Advanced section. Hides the grid when you are zoomed far out and bars get cluttered. Threshold is adjustable.</li>
-</ul>
-<p><strong>Performance and stability</strong></p>
-<ul>
-<li>Reduced load on Logic when no ruler is findable. If you are working in Mixer only view, with the main project window closed, or during Logic launch, LogicGrid now backs off its detection polling automatically. Resumes full speed tracking the moment a project window with a ruler appears.</li>
-<li>Fixed a bug where spotlight modes ignored the working state visual when 120 fps tracking was enabled.</li>
-<li>Grid no longer tries to draw during Mission Control or three finger swipe.</li>
-<li>Grid redraws immediately when Logic regains focus.</li>
-<li>Better diagnostic logging across the detection pipeline.</li>
-<li>Various internal hardening against edge case crashes.</li>
-</ul>
-<p><strong>Compatibility</strong></p>
-<ul>
-<li>LogicGrid requires Logic Pro 11 or 12. Logic Pro 10 is not supported and will show a clear warning at launch.</li>
-<li>macOS 14 with Logic Pro 11 has known issues. Recommended setup is macOS 15 with Logic Pro 12.</li>
-<li>Compatibility warnings rewritten to be clearer about what's supported and what to do if your setup isn't.</li>
+<li>Fixed an issue where some versions of Logic Pro weren't detected when the main window is refocused.</li>
 </ul>]]></description>
-<pubDate>Tue, 19 May 2026 02:32:39 -0500</pubDate>
-<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v11.1.0/LogicGrid-11.1.0.zip" sparkle:edSignature="4xvx8oaHy6krt5kOzkz5hOzd3d0wcvporbXHr3DEP1Q6supQYam1ZGbqDwGzpMcKx4ANQaKrsVtAdzHzX6A3AQ==" length="5495549" type="application/octet-stream"/>
+<pubDate>Tue, 19 May 2026 02:50:00 -0500</pubDate>
+<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v11.1.1/LogicGrid-11.1.1.zip" sparkle:edSignature="PiY71v0UKpUjphgme1HmMDEEifb/VBuBQe4staR/rTJwIKKKcg/VwlzqHntIKO/21Wzj1eXar96X0XPiTaPrBQ==" length="5495742" type="application/octet-stream"/>
 </item>
 </channel>
 </rss>
