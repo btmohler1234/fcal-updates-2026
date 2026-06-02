@@ -1,24 +1,33 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-    <channel>
-        <title>LogicGrid</title>
-        <item>
-            <title>LogicGrid 11.1.2</title>
-            <pubDate>Thu, 22 May 2026 12:00:00 -0500</pubDate>
-            <sparkle:version>11102</sparkle:version>
-            <sparkle:shortVersionString>11.1.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>Fixes</h2>
-                <ul>
-                    <li>Fixed the grid not coming back after swiping between full screen apps or spaces, especially on multi-monitor setups. It now recovers on its own without needing a relaunch.</li>
-                    <li>Fixed the grid not updating on zoom for some setups where Logic is running in a language other than English.</li>
-                    <li>Made the Get Help screenshot tool more reliable when Logic Pro is busy or unresponsive, so it can no longer freeze while trying to capture.</li>
-                    <li>Changed the Settings keyboard shortcut to Control + Option + N to avoid a conflict with Logic Pro.</li>
-                    <li>The grid now stays visible while Settings is open, so you can see your changes apply live as you adjust them.</li>
-                </ul>
-            ]]></description>
-            <enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v11.1.2/LogicGrid-11.1.2.zip" sparkle:edSignature="udSD0nIRgf6UdB+RMtXK9OmkENWIi/Mt5FwCGX9C7RJq2YBqmuUKRpkGwWmscRfWaJgIN+CjAaCqlt2vulktDA==" length="5514558" type="application/octet-stream" />
-        </item>
-    </channel>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>LogicGrid</title>
+    <item>
+      <title>LogicGrid 11.2.0</title>
+      <sparkle:version>11200</sparkle:version>
+      <sparkle:shortVersionString>11.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>New</h3>
+        <ul>
+          <li><b>Focus mode.</b> A new draw mode that lights up just the bar your cursor is in, plus one bar on each side. Press Control Option K to cycle to it, or pick it in Settings.</li>
+          <li><b>Secondary ruler support.</b> If you work with Logic's secondary ruler, open Settings and choose your ruler setup: Music bars, Timecode, or Secondary Ruler.</li>
+        </ul>
+        <h3>Fixes</h3>
+        <ul>
+          <li>Lower CPU use while the grid is muted.</li>
+          <li>More stable when switching between project alternatives.</li>
+          <li>Removed a brief grid flicker that could show up during quick window or screen changes.</li>
+        </ul>
+      ]]></description>
+      <pubDate>Mon, 02 Jun 2026 12:00:00 +0000</pubDate>
+      <enclosure
+        url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v11.2.0/LogicGrid-11.2.0.zip"
+        sparkle:version="11200"
+        sparkle:shortVersionString="11.2.0"
+        sparkle:edSignature="P/lKBwSoUtxLtkKzdfRKvrNoicbz/1o7mUWHjebZx/EvLqw9bQwcwfdl4zrl/Zt/Wkhru7vk1LWTYd2nrt65DQ=="
+        length="5532568"
+        type="application/octet-stream" />
+    </item>
+  </channel>
 </rss>
