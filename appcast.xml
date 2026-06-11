@@ -3,30 +3,31 @@
   <channel>
     <title>LogicGrid</title>
     <item>
-      <title>LogicGrid 11.2.0</title>
-      <sparkle:version>11200</sparkle:version>
-      <sparkle:shortVersionString>11.2.0</sparkle:shortVersionString>
+      <title>LogicGrid 11.2.1</title>
+      <sparkle:version>11201</sparkle:version>
+      <sparkle:shortVersionString>11.2.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h3>New</h3>
-        <ul>
-          <li><b>Focus mode.</b> A new draw mode that lights up just the bar your cursor is in, plus one bar on each side. Press Control Option K to cycle to it, or pick it in Settings.</li>
-          <li><b>Secondary ruler support.</b> If you work with Logic's secondary ruler, open Settings and choose your ruler setup: Music bars, Timecode, or Secondary Ruler.</li>
-        </ul>
         <h3>Fixes</h3>
         <ul>
-          <li>Lower CPU use while the grid is muted.</li>
-          <li>More stable when switching between project alternatives.</li>
-          <li>Removed a brief grid flicker that could show up during quick window or screen changes.</li>
+          <li>120 fps cursor tracking for Focus mode and the scrub line when the high refresh setting is on.</li>
+          <li>Grid lines and subdivisions near cycle regions now draw much more accurately, including edges on barlines, after toggling or moving the cycle, and after horizontal scrolling.</li>
+          <li>Fixed the grid freezing in a stale, slightly offset state after scrolling until the next zoom.</li>
+          <li>Logic Pro slowdown during long sessions: far fewer background queries to Logic.</li>
+          <li>LogicGrid no longer works at full speed when Logic Pro is closed.</li>
+          <li>Improved grid detection when Logic runs in a non English language.</li>
+          <li>Line opacity set to zero now sticks instead of resetting to default.</li>
+          <li>Scanning indicator dots now animate properly.</li>
+          <li>Welcome guide updated to cover all five grid modes.</li>
         </ul>
       ]]></description>
-      <pubDate>Mon, 02 Jun 2026 12:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Jun 2026 12:00:00 +0000</pubDate>
       <enclosure
-        url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v11.2.0/LogicGrid-11.2.0.zip"
-        sparkle:version="11200"
-        sparkle:shortVersionString="11.2.0"
-        sparkle:edSignature="P/lKBwSoUtxLtkKzdfRKvrNoicbz/1o7mUWHjebZx/EvLqw9bQwcwfdl4zrl/Zt/Wkhru7vk1LWTYd2nrt65DQ=="
-        length="5532568"
+        url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v11.2.1/LogicGrid-11.2.1.zip"
+        sparkle:version="11201"
+        sparkle:shortVersionString="11.2.1"
+        sparkle:edSignature="L/Wd7Zf8ooYanAhHk9naMB96RzDZBGWkGiMqhX20+dTlD6rT277e/nFWqtF5DqmxHGn73WaiPK3dkUrb1mM2CA=="
+        length="5556910"
         type="application/octet-stream" />
     </item>
   </channel>
